@@ -1,0 +1,77 @@
+1.
+create table login (
+u_id number(10) primary key not null,
+pass varchar2(20) not null,
+u_type varchar2(8) not null,
+constraint check_user_type
+check(u_type in ('admin','customer'))
+);
+
+2.
+create table admin(
+u_id number(10) not null,
+name varchar2(255),
+address varchar2(255),
+contact_no varchar2(14),
+CONSTRAINT ADMIN_FK FOREIGN KEY (u_id)
+    REFERENCES login(u_id)
+);
+
+3.
+create table client(
+u_id  number(10) not null,
+c_name varchar2(255),
+c_address varchar2(255),
+c_contact_no varchar2(255),
+c_id number(10) primary key,
+CONSTRAINT CUSTOMER_FK FOREIGN KEY (u_id)
+    REFERENCES login(u_id)
+);
+
+
+
+
+4.
+create table property(
+p_id  number(10) not null primary key,
+p_name varchar2(255),
+p_area varchar2(255),
+p_size number(25),
+p_desc varchar2(255)
+);
+
+
+
+5.
+create table transactions(
+t_id number(10) not null primary key,
+status varchar2(25),
+t_type varchar2(25),
+p_id number(10) not null,
+c_id number(10) not null,
+constraint check_trans_type
+check(t_type in ('cash','card','cheque')),
+constraint check_trans_status
+check(status in ('pending','processing','paid','cancelled')),
+CONSTRAINT TRANSACTION_pid_FK FOREIGN KEY (p_id)
+    REFERENCES property(p_id),
+CONSTRAINT TRANSACTION_cid_FK FOREIGN KEY (c_id)
+    REFERENCES client(c_id)
+
+);
+
+
+
+6.create table passchange(
+u_id number(10),
+chg_date date,
+primary key(u_id,chg_date)
+);
+
+
+String cid = metroComboBox1.Text;
+            String pid = metroComboBox2.Text;
+            String amnt = MetrosadBox.Text;
+            String SQL = "insert into transactions(p_id,c_id,t_id,status,t_type,amount) values(" + "tid_seq.nextval," + Convert.ToInt32(cid) + "," + Convert.ToInt32(pid) + ",'" + statusComboBox.Text + "','" + transTypeComboBox.Text + "'," + Convert.ToInt32(amnt) + ")";
+            cs.ExecuteQuery(SQL);
+            MessageBox.Show("DONE");

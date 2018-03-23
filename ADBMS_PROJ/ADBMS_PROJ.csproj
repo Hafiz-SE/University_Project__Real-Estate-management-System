@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5ED19B55-F87D-4353-B736-AED3DDA0522A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ADBMS_PROJ</RootNamespace>
+    <AssemblyName>ADBMS_PROJ</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\packages\MetroFramework.Design.1.2.0.3\lib\net40\MetroFramework.Design.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\packages\MetroFramework.Fonts.1.2.0.3\lib\net40\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.12.1.24160719\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddAdminUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAdminUI.Designer.cs">
+      <DependentUpon>AddAdminUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddClientUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddClientUI.Designer.cs">
+      <DependentUpon>AddClientUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPropertyUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPropertyUI.Designer.cs">
+      <DependentUpon>AddPropertyUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTrnasctionUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTrnasctionUI.Designer.cs">
+      <DependentUpon>AddTrnasctionUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUI.Designer.cs">
+      <DependentUpon>AdminUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePASSUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePASSUI.Designer.cs">
+      <DependentUpon>ChangePASSUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientUI.Designer.cs">
+      <DependentUpon>ClientUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client_viewtrans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client_viewtrans.Designer.cs">
+      <DependentUpon>Client_viewtrans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="connection.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterUI.Designer.cs">
+      <DependentUpon>RegisterUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchPropertyUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchPropertyUI.Designer.cs">
+      <DependentUpon>SearchPropertyUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionUI.Designer.cs">
+      <DependentUpon>TransactionUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAdminUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAdminUI.Designer.cs">
+      <DependentUpon>ViewAdminUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCustomersUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewCustomersUI.Designer.cs">
+      <DependentUpon>ViewCustomersUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPropertyCLIENTUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewPropertyCLIENTUI.Designer.cs">
+      <DependentUpon>ViewPropertyCLIENTUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPropertyUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewPropertyUI.Designer.cs">
+      <DependentUpon>ViewPropertyUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewReportsPRO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewReportsPRO.Designer.cs">
+      <DependentUpon>ViewReportsPRO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTransactionUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewTransactionUI.Designer.cs">
+      <DependentUpon>ViewTransactionUI.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddAdminUI.resx">
+      <DependentUpon>AddAdminUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddClientUI.resx">
+      <DependentUpon>AddClientUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPropertyUI.resx">
+      <DependentUpon>AddPropertyUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTrnasctionUI.resx">
+      <DependentUpon>AddTrnasctionUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUI.resx">
+      <DependentUpon>AdminUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePASSUI.resx">
+      <DependentUpon>ChangePASSUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientUI.resx">
+      <DependentUpon>ClientUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client_viewtrans.resx">
+      <DependentUpon>Client_viewtrans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterUI.resx">
+      <DependentUpon>RegisterUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchPropertyUI.resx">
+      <DependentUpon>SearchPropertyUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactionUI.resx">
+      <DependentUpon>TransactionUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAdminUI.resx">
+      <DependentUpon>ViewAdminUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCustomersUI.resx">
+      <DependentUpon>ViewCustomersUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPropertyCLIENTUI.resx">
+      <DependentUpon>ViewPropertyCLIENTUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPropertyUI.resx">
+      <DependentUpon>ViewPropertyUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewReportsPRO.resx">
+      <DependentUpon>ViewReportsPRO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewTransactionUI.resx">
+      <DependentUpon>ViewTransactionUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Envialia-Oracle-Logo.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

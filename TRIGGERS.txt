@@ -1,0 +1,89 @@
+1.
+create or replace trigger change_size
+after update 
+on property
+for each row
+
+begin
+
+insert into size_changed (p_id,prevsize,newsize) values (:old.p_id,:old.p_size,:new.p_size);
+
+end
+2.
+create or replace trigger change_amnt
+after update 
+on transactions
+for each row
+
+begin
+
+insert into change_amount (p_id,newamnt,oldamnt,changedate) values (:old.p_id,:new.amount,:old.amount,sysdate);
+
+end
+3.
+create or replace trigger change_cntct
+after update 
+on  client
+for each row
+
+begin
+
+insert into contact_changed (c_id,newcon,oldcon,chngdate) values (:old.c_id,:new.c_contact_no,:old.c_contact_no,sysdate);
+
+end
+
+4.
+create or replace trigger ch_addd
+after update 
+on  admin
+for each row
+
+begin
+
+insert into ch_add (user_id,newadd,oldadd) values (:old.u_id,:new.address,:old.address);
+
+end
+
+5.
+create or replace trigger chpass
+before update
+on  login
+for each row
+
+begin
+
+insert into passchange (u_id,chg_date) values (:new.u_id,sysdate);
+
+end
+
+
+6.
+create or replace trigger xpr 
+after insert on property
+
+begin
+update property set p_desc='Description not added' where p_desc IS NULL;
+end
+
+
+
+
+
+
+
+
+
+
+
+
+create table change_amount(
+p_id number(10), newamnt number(10), oldamnt number (10), changedate date)
+create table size_changed(
+p_id number(10), prevsize number(10), newsize number(10) 
+)
+create table contact_changed(
+c_id number(10), newcon number(14), oldcon number (14), chngdate date
+)
+create table ch_add(
+user_id number(10), newadd varchar2(255) ,oldadd varchar2(255)
+)

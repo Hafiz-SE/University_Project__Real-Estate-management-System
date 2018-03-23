@@ -1,0 +1,101 @@
+C:\Users\IceFrog\Documents\Visual Studio 2012\Projects\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.exe.config
+C:\Users\IceFrog\Documents\Visual Studio 2012\Projects\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.exe
+C:\Users\IceFrog\Documents\Visual Studio 2012\Projects\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.pdb
+C:\Users\IceFrog\Documents\Visual Studio 2012\Projects\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\MetroFramework.dll
+C:\Users\IceFrog\Documents\Visual Studio 2012\Projects\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\IceFrog\Documents\Visual Studio 2012\Projects\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.csprojResolveAssemblyReference.cache
+C:\Users\IceFrog\Documents\Visual Studio 2012\Projects\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.Properties.Resources.resources
+C:\Users\IceFrog\Documents\Visual Studio 2012\Projects\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.csproj.GenerateResource.Cache
+C:\Users\IceFrog\Documents\Visual Studio 2012\Projects\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.exe
+C:\Users\IceFrog\Documents\Visual Studio 2012\Projects\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.pdb
+C:\Users\IceFrog\Documents\Visual Studio 2012\Projects\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ADBMS_PROJ.resources
+C:\Users\IceFrog\Documents\Visual Studio 2012\Projects\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.Register.resources
+C:\Users\IceFrog\Documents\Visual Studio 2012\Projects\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\Oracle.ManagedDataAccess.dll
+I:\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.exe.config
+I:\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.exe
+I:\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.pdb
+I:\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.exe
+I:\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.pdb
+I:\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\MetroFramework.dll
+I:\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\MetroFramework.Fonts.dll
+I:\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\Oracle.ManagedDataAccess.dll
+I:\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.csprojResolveAssemblyReference.cache
+I:\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ADBMS_PROJ.resources
+I:\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.Properties.Resources.resources
+I:\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.Register.resources
+I:\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.csproj.GenerateResource.Cache
+H:\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.exe.config
+H:\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.exe
+H:\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.pdb
+H:\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.exe
+H:\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.pdb
+H:\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\MetroFramework.dll
+H:\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\MetroFramework.Fonts.dll
+H:\ADBMS_PROJ\ADBMS_PROJ\bin\Debug\Oracle.ManagedDataAccess.dll
+H:\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.csprojResolveAssemblyReference.cache
+H:\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ADBMS_PROJ.resources
+H:\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.Properties.Resources.resources
+H:\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.Register.resources
+H:\ADBMS_PROJ\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.csproj.GenerateResource.Cache
+C:\Users\hrahm\Desktop\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.exe.config
+C:\Users\hrahm\Desktop\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.exe
+C:\Users\hrahm\Desktop\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.pdb
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.exe.config
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.exe
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.pdb
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\bin\Debug\MetroFramework.dll
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.AddAdminUI.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.AddClientUI.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.AddPropertyUI.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.AdminUI.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ClientUI.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ADBMS_PROJ.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.Properties.Resources.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.Register.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.RegisterUI.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.csproj.GenerateResource.Cache
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.exe
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.pdb
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.csprojResolveAssemblyReference.cache
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ViewPropertyUI.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.TransactionUI.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ViewCustomersUI.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ViewTransactionUI.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.AddTrnasctionUI.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.SearchPropertyUI.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ViewPropertyCLIENTUI.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.Client_viewtrans.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ViewReportsPRO.resources
+C:\Users\IceFrog\Desktop\New folder\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ChangePASSUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.exe.config
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.exe
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.pdb
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.exe
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\bin\Debug\ADBMS_PROJ.pdb
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\bin\Debug\MetroFramework.dll
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.csprojResolveAssemblyReference.cache
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.AddAdminUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.AddClientUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.AddPropertyUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.AddTrnasctionUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.AdminUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ChangePASSUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ClientUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.Client_viewtrans.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ADBMS_PROJ.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.Properties.Resources.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.Register.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.RegisterUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.SearchPropertyUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.TransactionUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ViewAdminUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ViewCustomersUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ViewPropertyCLIENTUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ViewPropertyUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ViewReportsPRO.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.ViewTransactionUI.resources
+C:\Users\IceFrog\Desktop\ADMS PROJECT\ADBMS_PROJ\obj\Debug\ADBMS_PROJ.csproj.GenerateResource.Cache

@@ -1,0 +1,80 @@
+1.
+create or replace procedure add_admin (names in admin.name%type, addresss in admin.address%type, contact_nos in admin.contact_no%type, password in login.pass%type, utype in login.u_type%type) AS
+
+u_id_var login.u_id%type;
+
+begin
+select uid_seq.nextval into u_id_var from dual;
+insert into login (u_id,pass,u_type) values (u_id_var,password,utype);
+insert into admin (u_id,name,address,contact_no) values (u_id_var,names,addresss,contact_nos);
+END;
+
+2.
+create or replace procedure add_client (names in client.c_name%type, addresss in client.c_address%type, contact_nos in client.c_contact_no%type, password in login.pass%type, utype in login.u_type%type) AS
+
+u_id_var login.u_id%type;
+c_id_var client.c_id%type;
+
+begin
+select uid_seq.nextval into u_id_var from dual;
+select cid_seq.nextval into c_id_var from dual;
+insert into login (u_id,pass,u_type) values (u_id_var,password,utype);
+insert into client (u_id,c_id,c_name,c_address,c_contact_no) values (u_id_var,c_id_var,names,addresss,contact_nos);
+END;
+
+3.
+create or replace procedure size_prop (ret out number) AS
+numb number:=0;
+tango number;
+CURSOR new is 
+      SELECT p_size FROM property;
+Begin
+open new;
+loop
+FETCH new into tango; 
+EXIT WHEN new%notfound;
+numb:=numb + tango;
+
+END LOOP; 
+close new;
+ret:=numb;
+
+end;
+
+
+4.
+CREATE OR REPLACE PROCEDURE PERC_STAT(string in varchar2, NUMB OUT NUMBER) as
+
+tango number;
+jango number;
+begin
+select count(*) into tango from transactions;
+select count(*) into jango from transactions where status=string;
+NUMB:=(jango/tango)*100;
+end;
+
+
+5.
+CREATE OR REPLACE PROCEDURE tran_type(string in varchar2, NUMB OUT NUMBER) as
+
+tango number;
+jango number;
+begin
+select count(*) into tango from transactions;
+select count(*) into jango from transactions where t_type=string;
+NUMB:=(jango/tango)*100;
+end;
+
+
+
+6.
+create or replace procedure cp (pass0 in varchar2, pass1 in varchar2 , pass2 in varchar2, user_id in number) AS
+var varchar2(25);
+Begin
+select pass into var from login where u_id=user_id;
+if pass0=var then
+if pass1=pass2 then
+update login set pass=pass1 where u_id = user_id;
+end if;
+end if;
+end;
